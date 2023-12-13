@@ -27,6 +27,11 @@ pipeline {
             }
         }
 
+          stage('code security') {
+             steps {
+                 echo 'Hello World'
+             }
+        }
         }
     }
 }
