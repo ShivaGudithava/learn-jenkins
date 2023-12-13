@@ -20,17 +20,11 @@ pipeline {
             }
         }
 
-
          stage('code security') {
             steps {
                 echo 'Hello World'
             }
         }
-
-          stage('code security') {
-             steps {
-                 echo 'Hello World'
-             }
 
         }
     }
